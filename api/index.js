@@ -18,7 +18,7 @@ dotenv.config();
 // Init CORS
 app.use(
   cors({
-    origin: ["http://127.0.0.1:5173", "https://ohclips.netlify.app", "https://ohclips.vercel.app"],
+    origin: ["http://127.0.0.1:5173","https://ohclips.vercel.app"],
   })
 );
 
