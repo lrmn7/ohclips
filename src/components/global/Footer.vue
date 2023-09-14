@@ -38,7 +38,7 @@ const year = new Date().getFullYear();
 const navigation = [
   {
     name: "GitHub",
-    href: "https://instagram.com/romanroman.nya/",
+    href: "https://lrmn.is-a.dev/",
     icon: defineComponent({
       render: () =>
         h("svg", { fill: "white", viewBox: "0 0 48 48" }, [

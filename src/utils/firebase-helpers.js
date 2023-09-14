@@ -71,7 +71,7 @@ const createUser = async (username, email, password) => {
     // Adding username and avatar to firebase auth
     await updateProfile(user, {
       displayName: username.toLowerCase(),
-      photoURL: `https://api.dicebear.com/5.x/bottts-neutral/svg?seed=${username}&backgroundColor=7d7d7d,d74d4d,7e22ce,60a5fa,22d3ee`,
+      photoURL: `https://api.dicebear.com/7.x/fun-emoji/svg?seed=${username}&backgroundColor=7d7d7d,d74d4d,7e22ce,60a5fa,22d3ee`,
     });
 
     // Add username to usernames collection (public)

@@ -33,6 +33,6 @@ onAuthStateChanged(auth, (user) => {
     userStore.uid = auth.currentUser.uid;
     userStore.avatar =
       auth.currentUser.photoURL ||
-      "https://api.dicebear.com/5.x/bottts-neutral/svg?seed=noob&backgroundColor=7d7d7d,d74d4d,7e22ce,60a5fa,22d3ee";
+      "https://api.dicebear.com/7.x/fun-emoji/svg?seed=noob&backgroundColor=7d7d7d,d74d4d,7e22ce,60a5fa,22d3ee";
   }
 });

@@ -3934,9 +3934,9 @@ vee-validate@^4.10.6, vee-validate@^4.7.3:
     "@vue/devtools-api" "^6.5.0"
     type-fest "^3.12.0"
 
-"video.js@^7 || ^8", video.js@^8.3.0:
+video.js@8.3.0, "video.js@^7 || ^8":
   version "8.3.0"
-  resolved "https://registry.yarnpkg.com/video.js/-/video.js-8.3.0.tgz#5324d8e3f5648712d02117520f5a71166df6f01a"
+  resolved "https://registry.npmjs.org/video.js/-/video.js-8.3.0.tgz#5324d8e3f5648712d02117520f5a71166df6f01a"
   integrity sha512-Vp3mqMLSUE354t+G8CbZKwcV520VKoS5fow8zjnEEKFuqStmkmnvK7/FurP6zuP/oWGJ1rqlKxML56kmJOrwRw==
   dependencies:
     "@babel/runtime" "^7.12.5"
